@@ -12,8 +12,12 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
+  "scripts": {
+    "start": "webpack && http-server"
+  },
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
-    "@hotwired/stimulus-webpack-helpers": "^1.0.1"
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "http-server": "^14.1.0"
   }
 }
